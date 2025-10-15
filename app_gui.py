@@ -1394,7 +1394,7 @@ class DocuMindApp:
             )
             
             self.splash.update_status("Loading AI Models...", 0.7)
-            api_key = "AIzaSyABE4KS1xFosi0M6gFkpLGt8gVNZE5Haa8"
+            api_key = "your api key" #kindly get your generative ai api key
             self.batch_analyzer = SmartBatchAnalyzer(api_key=api_key)
             
             # Setup callbacks
@@ -1802,4 +1802,5 @@ class DocuMindApp:
 # Main entry point
 if __name__ == "__main__":
     app = DocuMindApp()
+
     app.run()
